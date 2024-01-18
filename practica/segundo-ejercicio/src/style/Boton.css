@@ -1,0 +1,17 @@
+:root{
+    --white:#eeeff0;
+    --black: #000;
+    --orange: #ce7d03;
+    --sm: 16px;
+}
+
+button{
+    margin: 10px;
+    border: none;
+    background-color: var(--orange);
+    padding: 10px;
+    color: var(--white);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: var(--sm);
+}

@@ -1,0 +1,48 @@
+:root{
+  --white:#eeeff0;
+  --black: #000;
+  --orange: #ce7d03;
+  --blue-dark: #0a335a;
+  --red: #921818;
+  --green: #128f0d;
+  --lg: 60px;
+  --md: 30px;
+  --sm: 16px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  font-size: 18px;
+  background-color: var(--white);
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+h1{
+  font-size: var(--lg);
+  color: var(--blue-dark);
+}
+span{
+  font-size: var(--md);
+}
+
+button:nth-of-type(1) {
+  background: var(--green);
+}
+button:nth-of-type(2) {
+  background: var(--red);
+}
+button:nth-of-type(3) {
+  background: var(--orange);
+}
